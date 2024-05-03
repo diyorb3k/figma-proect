@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["_fonts.scss","bloks/_container.scss","bloks/_blocks.scss","page.scss/_home.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;ACFF;EACE;EACA;EACA;EACA;EACA;;;ACFF;EACE;;;ACHA;EACE","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["_fonts.scss","bloks/_container.scss","bloks/_blocks.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;ACFF;EACE;EACA;EACA;EACA;EACA;;;ACFF;EACE","file":"style.css"}
