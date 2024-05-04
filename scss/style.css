@@ -20,15 +20,20 @@ h1 {
   color: red;
 }
 
-.HOME-PAGE body {
-  position: relative;
+header {
+  position: fixed;
+  z-index: 1334233;
+  width: 100%;
+  top: 0;
 }
-.HOME-PAGE .navbar {
+
+.navbar {
   display: flex !important;
   justify-content: space-between !important;
   background-color: rgb(35, 37, 54);
 }
-.HOME-PAGE .container-fluid {
+
+.container-fluid {
   display: flex;
   justify-content: space-between !important;
 }
@@ -51,4 +56,51 @@ h1 {
 
 .navbar-toggler-icon {
   color: azure !important;
+}
+
+.navbar-collapse {
+  color: antiquewhite !important;
+}
+
+body {
+  position: relative;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: rgb(35, 37, 54);
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.bg-body-tertiary {
+  background-color: rgb(35, 37, 54) !important;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  color: azure !important;
+}
+
+.navbar-toggler-icon {
+  color: azure !important;
+}
+
+.navbar-collapse {
+  color: antiquewhite !important;
+}
+
+.HOME-PAGE h1 {
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
