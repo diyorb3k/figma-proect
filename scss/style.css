@@ -33,27 +33,12 @@ h1 {
   justify-content: space-between !important;
 }
 
-.navbar-expand-lg {
-  display: flex !important;
-  justify-content: space-between !important;
-}
-
-.navbar-nav {
-  display: flex !important;
-  justify-content: space-between !important;
-}
-
 .bg-body-tertiary {
   background-color: rgb(35, 37, 54) !important;
 }
 
 .nav-link {
   color: rgb(255, 255, 255) !important;
-}
-
-.collapse.navbar-collapse {
-  display: flex !important;
-  justify-content: space-between !important;
 }
 
 .navbar-toggler {
