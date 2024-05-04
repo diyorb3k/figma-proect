@@ -18,4 +18,52 @@
 
 h1 {
   color: red;
+}
+
+.HOME-PAGE body {
+  position: relative;
+}
+.HOME-PAGE .navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: rgb(35, 37, 54);
+}
+.HOME-PAGE .container-fluid {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.navbar-expand-lg {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.navbar-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.bg-body-tertiary {
+  background-color: rgb(35, 37, 54) !important;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.collapse.navbar-collapse {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  color: azure !important;
+}
+
+.navbar-toggler-icon {
+  color: azure !important;
 }/*# sourceMappingURL=style.css.map */
