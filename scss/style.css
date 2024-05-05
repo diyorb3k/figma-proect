@@ -24,7 +24,7 @@ header {
   position: fixed;
   z-index: 1334233;
   width: 100%;
-  height: 1000px;
+  height: 100px;
   top: 0;
   bottom: 0;
   padding: 0;
@@ -71,6 +71,10 @@ body {
 
 .BLOG_PAGE main {
   padding-top: 102px;
+}
+
+.COMPANIYA_PAGE h1 {
+  color: black;
 }
 
 body {
