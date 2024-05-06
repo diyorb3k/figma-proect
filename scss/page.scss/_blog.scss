@@ -1,11 +1,9 @@
 header {
-  // position: fixed;
-  z-index: 1334233;
-  width: 100%;
   top: 0;
   bottom: 0;
   padding: 0;
   background-color: rgba(35, 37, 54, 1);
+  padding: 18px 0px;
 }
 body {
   top: 0;
@@ -23,47 +21,17 @@ body {
 .container-fluid {
   display: flex;
   justify-content: space-between !important;
+  button {
+    border: solid 3px white !important;
+    background-color: transparent !important;
+  }
 }
 
-// .navbar-expand-lg {
-//   display: flex !important;
-//   justify-content: space-between !important;
-// }
-// .navbar-nav {
-//   display: flex !important;
-//   justify-content: space-between !important;
-// }
 .bg-body-tertiary {
   background-color: rgba(35, 37, 54, 1) !important;
-}
-.nav-link {
-  color: rgba(255, 255, 255, 1) !important;
-}
-// .collapse.navbar-collapse {
-//   display: flex !important;
-//   justify-content: space-between !important;
-// }
-.navbar-toggler {
-  color: white !important;
-}
-
-.navbar-toggler-icon {
-  color: azure !important;
-}
-.navbar-toggler-icon {
-  color: azure !important;
-}
-.navbar-collapse {
-  color: antiquewhite !important;
 }
 
 // <!-- BLOG_PAGE ni ichida yozilish kerak -->
 
 .BLOG_PAGE {
-  span {
-    color: red;
-  }
-  main {
-    // padding-top: 102px;
-  }
 }

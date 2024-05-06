@@ -17,12 +17,11 @@
 }
 
 header {
-  z-index: 1334233;
-  width: 100%;
   top: 0;
   bottom: 0;
   padding: 0;
   background-color: rgb(35, 37, 54);
+  padding: 18px 0px;
 }
 
 body {
@@ -45,34 +44,15 @@ body {
   display: flex;
   justify-content: space-between !important;
 }
+.container-fluid button {
+  border: solid 3px white !important;
+  background-color: transparent !important;
+}
 
 .bg-body-tertiary {
   background-color: rgb(35, 37, 54) !important;
 }
 
-.nav-link {
-  color: rgb(255, 255, 255) !important;
-}
-
-.navbar-toggler {
-  color: white !important;
-}
-
-.navbar-toggler-icon {
-  color: azure !important;
-}
-
-.navbar-toggler-icon {
-  color: azure !important;
-}
-
-.navbar-collapse {
-  color: antiquewhite !important;
-}
-
-.BLOG_PAGE span {
-  color: red;
-}
 .CARER_PAGE h1 {
   margin-top: px;
 }
