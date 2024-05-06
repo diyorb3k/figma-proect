@@ -1,8 +1,16 @@
 // <!-- CARER_PAGE ni ichida yozilish kerak -->
 
 .CARER_PAGE {
-  h1 {
+  sec1 {
     margin-top: 100px;
-    color: blue;
+    justify-content: center;
+    text-align: center;
+    p {
+      color: aqua;
+    }
+    img {
+      width: 1100px;
+      height: 195px;
+    }
   }
 }
