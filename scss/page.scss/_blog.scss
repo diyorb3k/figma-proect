@@ -15,7 +15,11 @@ body {
   justify-content: space-between !important;
   background-color: rgba(35, 37, 54, 1);
 }
-
+.navbar_2 {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
 .container-fluid {
   display: flex;
   justify-content: space-between !important;

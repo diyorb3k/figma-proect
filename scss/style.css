@@ -35,6 +35,12 @@ body {
   background-color: rgb(35, 37, 54);
 }
 
+.navbar_2 {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
+
 .container-fluid {
   display: flex;
   justify-content: space-between !important;
