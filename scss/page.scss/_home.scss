@@ -47,5 +47,176 @@ body {
 }
 // <!-- HOME_PAGE ni ichida yozilish kerak -->
 .HOME-PAGE {
-  
+}
+
+// FOOTER
+.foter_tex_left {
+  h4 {
+    padding-top: 32px;
+    padding-bottom: 35px;
+    max-width: 452px;
+    width: 100%;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: rgba(35, 37, 54, 1);
+  }
+  .talk {
+    padding-bottom: 28px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgba(35, 37, 54, 1);
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  .cal_nomber {
+    p {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: left;
+      padding-bottom: 10px;
+    }
+    .weer_border {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      width: 268px;
+    }
+  }
+  .india {
+    p {
+      padding-top: 16px;
+      max-width: 206px;
+      width: 100%;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      color: rgba(35, 37, 54, 1);
+    }
+  }
+}
+.foter_tex_right {
+  display: flex;
+  padding-top: 80px;
+  padding-right: 117px;
+  gap: 40px;
+}
+.foter_link {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(35, 37, 54, 1);
+}
+.foter_top {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_1 {
+  cursor: pointer;
+  max-width: 175px;
+  width: 100%;
+  height: 24px;
+  margin-left: 850px;
+}
+// FOTER RESPONSIVI
+@media (max-width: 1047px) {
+  .contact_1 {
+    cursor: pointer;
+    max-width: 175px;
+    margin-left: 800px;
+  }
+}
+@media (max-width: 995px) {
+  .contact_1 {
+    cursor: pointer;
+    max-width: 175px;
+    margin-left: 500px;
+  }
+}
+@media (max-width: 825px) {
+  .cal_nomber {
+    text-align: center;
+    p {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .weer_border {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      width: 268px;
+    }
+  }
+  .contact_1 {
+    cursor: pointer;
+    max-width: 175px;
+    margin-left: 500px;
+    display: none;
+  }
+  .foter_top {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .foter_tex_left {
+    text-align: center;
+    h4 {
+      text-align: center;
+      padding-top: 32px;
+      padding-bottom: 10px;
+      max-width: 452px;
+      width: 100%;
+      font-family: Poppins;
+      font-size: 38px;
+      line-height: 38px;
+    }
+    .talk {
+      padding-bottom: 28px;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      color: rgba(35, 37, 54, 1);
+    }
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    .cal_nomber {
+      p {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        padding-bottom: 10px;
+      }
+      .weer_border {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        width: 268px;
+      }
+    }
+    .india {
+      p {
+        padding-top: 16px;
+        max-width: 206px;
+        width: 100%;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: rgba(35, 37, 54, 1);
+      }
+    }
+  }
 }
